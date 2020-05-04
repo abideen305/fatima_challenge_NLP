@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+
+    <style>
+        .welcome{
+            text-align: right;
+            color: whitesmoke;
+            padding-left: auto;
+            padding-right: auto;
+            shape-margin: 20px;
+            background: blue;
+        }
+
+        .form{
+            background: white;
+            width: 560px;
+            height: 100vh;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        input{
+            margin-right: 200px;
+            margin-left: 200px;
+            width: 250px;
+            color: tomato;
+            padding: 10px;
+            margin: 10px;
+            background: gray;
+        }
+      
+
+        body{
+            background-image: url(background.jpg);
+            color: rgb(128, 128, 128);
+            background-color: gray;
+        }
+
+        button{
+            color: whitesmoke;
+            background: gray;
+            padding: 5px;
+            width: 100px;
+        }
+
+    
+
+    
+
+
+
+    </style>
+</head>
+<body>
+
+
+    <div class="welcome">
+        <h2>You are not logged in</h2>
+    </div>
+    
+ 
+
+  <div class="form">
+
+            <form action="/new-login" method="POST">
+    
+                <h3> SIGN UP </h3>
+                <input type="email" name="email" placeholder="Email or username">
+                <input type="password" name="password" placeholder="Your password"> 
+                 <button>Log in </button>
+                <input type="reset">
+
+
+            <h3>Yet to register? </h3>
+            <a href="signup.html" target ='_blank'>Register here</a>
+    
+                
+            </form>
+     </div>
+    
+   
+    
+</body>
+</html>
